@@ -1,0 +1,32 @@
+#a1, #a2, #a3, #a4{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+    transition-property:background-color ;
+    transition: 2s;
+    cursor: pointer;
+}
+#a1{
+    background-color: green;
+}
+#a2{
+    background-color: blue;
+}
+#a3{
+    background-color: orange;
+}
+#a4{
+    background-color: blue;
+}
+#a1:hover{
+    background-color: red;
+    color: white;
+}
+#a2:hover{
+    background-color:green;
+    border-radius: 10px;
+    
+}
